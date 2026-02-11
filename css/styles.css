@@ -93,6 +93,12 @@ img {
   pointer-events: none;
 }
 
+.hero__divider {
+  top: auto;
+  bottom: -1px;
+  z-index: 1;
+}
+
 /* --- Fade-in Animations --- */
 .fade-in {
   opacity: 0;

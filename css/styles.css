@@ -93,9 +93,9 @@ img {
   pointer-events: none;
 }
 
-.hero__divider {
+.section__divider--bottom {
   top: auto;
-  bottom: -1px;
+  bottom: 0;
   z-index: 1;
 }
 
@@ -284,7 +284,7 @@ img {
    Hero
    ======================================== */
 .hero {
-  min-height: 100vh;
+  min-height: calc(100vh + 40px);
   display: flex;
   align-items: center;
   justify-content: center;
